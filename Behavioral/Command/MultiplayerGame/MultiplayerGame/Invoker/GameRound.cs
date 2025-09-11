@@ -1,5 +1,6 @@
-﻿
-namespace MultiplayerGame
+﻿using MultiplayerGame.CommandInterface;
+
+namespace MultiplayerGame.Invoker
 {
     //invoker
     public class GameRound
@@ -26,7 +27,7 @@ namespace MultiplayerGame
 
         public void Redo()
         {
-            if (_unDoneCommands.Count == 0) return; 
+            if (_unDoneCommands.Count == 0) return;
 
             var undoneCommnad = _unDoneCommands.Pop();
 

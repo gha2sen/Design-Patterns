@@ -1,21 +1,21 @@
-﻿namespace MultiplayerGame
+﻿namespace MultiplayerGame.Commands
 {
-    public class AttackCommand : ICommand
+    public class DefendCommand : ICommand
     {
         private Avatar _avatar;
 
-        public AttackCommand(Avatar avatar)
+        public DefendCommand(Avatar avatar)
         {
             _avatar = avatar;
         }
         public void Execute()
         {
-            _avatar.Attack();
+            _avatar.Defend();
         }
 
         public void Undo()
         {
-            _avatar.AddWeponStrike();
+            _avatar.AddShield();
         }
     }
 }

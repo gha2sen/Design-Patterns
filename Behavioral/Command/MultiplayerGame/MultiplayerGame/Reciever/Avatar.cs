@@ -1,4 +1,4 @@
-﻿namespace MultiplayerGame
+﻿namespace MultiplayerGame.Reciever
 {
     //Reciever
     public class Avatar(int shieldCount, int weponStrikeCount)

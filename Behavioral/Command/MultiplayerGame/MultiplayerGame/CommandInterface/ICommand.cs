@@ -1,4 +1,4 @@
-﻿namespace MultiplayerGame
+﻿namespace MultiplayerGame.CommandInterface
 {
     public interface ICommand
     {

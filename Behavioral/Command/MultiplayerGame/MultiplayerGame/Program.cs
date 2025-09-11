@@ -1,6 +1,5 @@
-﻿using MultiplayerGame;
-
-var avatar = new Avatar(10,5);
+﻿
+var avatar = new Avatar(10, 5);
 var gameRound = new GameRound();
 
 
